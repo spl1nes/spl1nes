@@ -4,5 +4,5 @@
 - :boom: I’m currently working on [Orange-Management](https://github.com/Orange-Management/) a CMS, ERP, Intranet & more.
 - :seedling: I’m currently learning about cluster analysis
 - :heart: I’m looking to collaborate on [Orange-Management](https://github.com/Orange-Management/)
-- :mailbox: How to reach me: dennis.eichhorn@orange-management.email
+- :mailbox: How to reach me: spl1nes.com@googlemail.com
 - :pencil: You can find my blog at https://blog.orange-management.de/
