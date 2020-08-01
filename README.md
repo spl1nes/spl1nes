@@ -1,6 +1,6 @@
 ### Dennis Eichhorn
 
-- :office: I'm currently working at Schütz Dental GmbH as Head of Finance
+- :office: I'm currently working at [Schütz Dental GmbH](https://www.schuetz-dental.de/) as Head of Finance
 - :boom: I’m currently working on [Orange-Management](https://github.com/Orange-Management/) a CMS, ERP, Intranet & more.
 - :seedling: I’m currently learning about cluster analysis
 - :heart: I’m looking to collaborate on [Orange-Management](https://github.com/Orange-Management/)
