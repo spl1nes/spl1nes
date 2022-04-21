@@ -1,0 +1,79 @@
+name: Metrics
+on:
+  # Schedule daily updates
+  schedule: [{cron: "0 0 * * *"}]
+  # (optional) Run workflow manually
+  workflow_dispatch:
+  # (optional) Run workflow when pushing on master/main
+  push: {branches: ["master"]}
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          user: Karaka-Management
+          token: ${{ secrets.GH_PAT }}
+      - name: Full-year calendar
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.isocalendar.fullyear.svg
+          user: spl1nes
+          token: ${{ secrets.GH_PAT }}
+          base: ""
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+      - name: Most used languages
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.languages.svg
+          user: Karaka-Management
+          token: ${{ secrets.GH_PAT }}
+          base: ""
+          plugin_languages: yes
+          plugin_languages_ignored: >-
+            html, tex, less, dockerfile, makefile, qmake, lex, cmake,
+            gnuplot
+          plugin_languages_limit: 4
+      - name: Recent activity charts
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.habits.charts.svg
+          user: Karaka-Management
+          token: ${{ secrets.GH_PAT }}
+          base: ""
+          plugin_habits: yes
+          plugin_habits_facts: no
+          plugin_habits_charts: yes
+          config_timezone: Europe/Paris
+      - name: Midly interesting facts
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.habits.facts.svg
+          user: Karaka-Management
+          token: ${{ secrets.GH_PAT }}
+          base: ""
+          plugin_habits: yes
+          plugin_habits_facts: yes
+          plugin_habits_charts: no
+          config_timezone: Europe/Paris
+      - name: Compact display
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.achievements.compact.svg
+          user: spl1nes
+          token: ${{ secrets.GH_PAT }}
+          base: ""
+          plugin_achievements: yes
+          plugin_achievements_display: compact
+          plugin_achievements_threshold: X
+          plugin_achievements_secrets: yes
+          plugin_achievements_limit: 0
+      - name: Repositories traffic
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.traffic.svg
+          user: Karaka-Management
+          token: ${{ secrets.GH_PAT }}
+          base: repositories
+          plugin_traffic: yes
