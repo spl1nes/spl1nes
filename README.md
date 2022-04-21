@@ -6,3 +6,15 @@
 - :heart: I’m looking to collaborate on [Karaka-Management](https://github.com/Karaka-Management/)
 - :mailbox: How to reach me: spl1nes.com@googlemail.com
 - :pencil: You can find my blog at https://blog.karaka-management.app/
+
+### Main Organization
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/spl1nes/spl1nes/master/github-metrics.svg" alt="Organization">
+</p>
+
+### Achievements
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/spl1nes/spl1nes/master/metrics.plugin.achievements.compact.svg" alt="Achievements">
+</p>
