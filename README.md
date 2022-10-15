@@ -1,6 +1,6 @@
 ### Dennis Eichhorn
 
-- :office: I'm currently working at [Schütz Dental GmbH](https://www.schuetz-dental.de/) as Head of Finance
+- :office: I'm currently working at [BeteiligungsHolding Hanau GmbH](https://www.bhg-hanau.de/) as Controller
 - :boom: I’m currently working on [Karaka-Management](https://github.com/Karaka-Management/) a CMS, ERP, Intranet & more.
 - :seedling: I’m currently learning about GAN
 - :heart: I’m looking to collaborate on [Karaka-Management](https://github.com/Karaka-Management/)
