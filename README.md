@@ -14,5 +14,5 @@
 #### System
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/spl1nes/spl1nes/master/system.drawio.svg" alt="Achievements">
+  <img src="https://raw.githubusercontent.com/spl1nes/spl1nes/master/system.drawio.svg" alt="System">
 </p>
