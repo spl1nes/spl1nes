@@ -19,7 +19,7 @@
 
 #### Activity
 
-<figure><embed src="https://wakatime.com/share/@spl1nes/2001389e-a9ac-40b2-b724-02abb28f2191.svg"></embed></figure>
+<img src="https://wakatime.com/share/@spl1nes/2001389e-a9ac-40b2-b724-02abb28f2191.svg">
 
-<figure><embed src="https://wakatime.com/share/@spl1nes/d9ea67cd-2cf6-4a9d-9241-b635951e7453.svg"></embed></figure>
+<img src="https://wakatime.com/share/@spl1nes/d9ea67cd-2cf6-4a9d-9241-b635951e7453.svg">
 
