@@ -1,6 +1,6 @@
 ### Dennis Eichhorn
 
-- :office: I'm currently working at [BeteiligungsHolding Hanau GmbH](https://www.bhg-hanau.de/) as Controlling manager
+- :office: I'm currently working at [Jingga e. K.](https://jingga.app) as manager
 - :boom: I’m currently working on [Karaka-Management](https://github.com/Karaka-Management/) a CMS, ERP, Intranet & more.
 - :seedling: I’m currently learning about GAN
 - :heart: I’m looking to collaborate on [Karaka-Management](https://github.com/Karaka-Management/)
